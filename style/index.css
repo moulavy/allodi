@@ -118,6 +118,7 @@ body {
 /*----------set------*/
 .set {
     display: flex;
+    position: relative;
 }
 
 .set__bg {
@@ -255,6 +256,13 @@ body {
 }
 .set__price-button:hover {
     opacity: 0.8;
+}
+.set__glow-bottom {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    mix-blend-mode: screen;
+    width: 100%;
 }
 
 @media (max-width: 1300px) {
