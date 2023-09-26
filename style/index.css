@@ -130,13 +130,13 @@ body {
 }
 .set__dog {
     position: relative;
-    margin: 31px 160px 0 188px;
+    margin: 31px 160px 0 14%;
     width: 441px;
 }
 .set__dog-img {
     position: relative;
     z-index: 6;
-   
+    width:100% ;
 }
 .set__dog:before {
     content: "";
